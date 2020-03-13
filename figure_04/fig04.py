@@ -1,3 +1,6 @@
+#SECTION:
+#Regular Expressions
+
 import re
 print re.search('foo', 'foobar')
 print re.search('foo', 'barfoo')

@@ -1,3 +1,6 @@
+#SECTION:
+#Hamming Distance
+
 def hamming(a,b):
     if len(a) == len(b):
         return sum(map(lambda x:1 if x[0] == x[1] else 0, zip(a,b)))

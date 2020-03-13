@@ -1,3 +1,6 @@
+#SECTION:
+#Jaccard Distance
+
 # Jaccard distance is the ratio of the intersection of two sets against their union
 def jaccard(a,b):
     #given two strings, calculate the jaccard distance between the sets of their characters
